@@ -1,0 +1,9 @@
+<a href='/products'>Back</a>
+
+<% if (product) { %>
+  <h1><%= product.name %></h1>
+  <h1><%= product.base_price %></h1>
+  <h1><%= product.description %></h1>
+<% } else { %>
+  <h1>Product Not Found</h1>
+<% } %>
